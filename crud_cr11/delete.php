@@ -1,7 +1,5 @@
 <?php 
 
-
-
 require_once 'actions/db_connect.php';
 
  ob_start();
@@ -9,10 +7,8 @@ session_start();
 if(!isset($_SESSION["user"]) && !isset($_SESSION["admin"])){
   header("Location: indexLogin.php");
 }elseif(isset($_SESSION["user"])){
-  header("Location: home.php");
-  
+  header("Location: home.php"); 
 }
-
 
 if ($_GET['id']) {
    $id = $_GET['id'];
@@ -27,7 +23,7 @@ if ($_GET['id']) {
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Animal Care Vienna | Delete Pet</title>
+   <title>Delete Animal</title>
    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 

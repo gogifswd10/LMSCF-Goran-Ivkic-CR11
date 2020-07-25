@@ -12,7 +12,7 @@ if(!isset($_SESSION["user"]) && !isset($_SESSION["admin"])){
 <!DOCTYPE html>
 <html>
 <head>
-    <title >Animal Care Vienna | Update pet</title>
+    <title >Update Information</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet"> 
@@ -69,6 +69,7 @@ if(!isset($_SESSION["user"]) && !isset($_SESSION["admin"])){
         width: 140px;
         height: 50px;
         border-radius: 5px;
+        margin: 30px 0 30px 0;
         cursor: pointer;
 }
     #btnSave {
@@ -82,6 +83,10 @@ if(!isset($_SESSION["user"]) && !isset($_SESSION["admin"])){
 
     legend {
         font-size: 1.2em;
+    }
+
+    form {
+      padding-left: 20px;
     }
 
    </style>
@@ -145,7 +150,7 @@ if ($_GET['id']) {
                <th>CITY</th>
                <td><input type="text" name="city" placeholder ="add city" value= "<?php echo $data['city'] ?>"/></td>
            </tr>
-       </table><br>
+       </table>
               <td>
                 <input type= "hidden" name= "id" value="<?php echo $data['id'] ?>">
                 <button type="submit" id="btnSave" />Save Changes</button></td>

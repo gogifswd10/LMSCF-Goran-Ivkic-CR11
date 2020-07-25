@@ -82,10 +82,7 @@ $password = hash('sha256' , $pass);
    $errTyp = "danger";
    $errMSG = "Something went wrong, try again later..." ;
   }
- 
  }
-
-
 }
 ?>
 <!DOCTYPE html>

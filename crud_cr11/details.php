@@ -15,7 +15,7 @@ if ($_GET['id']) {
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Details</title>
+   <title>Detail Info</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,7 +50,6 @@ if ($_GET['id']) {
         opacity: 0.85;
         -webkit-box-shadow: 0px 0px 11px 10px rgba(210,255,204,0.98); 
         box-shadow: 0px 0px 11px 10px rgba(210,255,204,0.98);
-
       }
 
       button {
@@ -79,8 +78,6 @@ if ($_GET['id']) {
 </head>
 
 <body>
-      
-
   <div class="row" id="container">
  <!--INFO-->
     <div class="card border-dark">

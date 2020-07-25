@@ -12,7 +12,7 @@ if(!isset($_SESSION["user"]) && !isset($_SESSION["admin"])){
 
 <html>
 <head>
-   <title>Animal Care Vienna | Add a pet</title>
+   <title>Add an animal</title>
    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pet Adoption | A_create</title>
+  <title>Action Create</title>
    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style type="text/css">
-    body {
-          
+    body { 
           font-family: 'Quicksand', sans-serif;
           background-image: url("../img/puppy.jpg"); 
           background-attachment: fixed;
@@ -24,7 +23,6 @@
           cursor: pointer;
           border-radius: 10px;
         }
-
 
   </style>
 </head>

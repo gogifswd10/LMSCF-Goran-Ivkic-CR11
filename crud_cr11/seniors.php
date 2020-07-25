@@ -14,7 +14,7 @@ if( !isset($_SESSION['admin']) && !isset($_SESSION['user']) ) {
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Welcome to Animal Care Vienna</title>
+   <title>Senior Animals</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">   
@@ -27,7 +27,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+}
 
+nav {
+    background-color: lightgrey;
 }
 
 .parallax_section {
@@ -47,7 +50,7 @@ body {
     align-items: center;
     max-width: 100%;
     height: 160px;
-    background-color: lightgrey;
+    background-color: #efe4dc;
     padding: 0 8px 0 5px;
     margin-bottom: 5px;
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 3px 2px 20px 10px rgba(183,183,183,0.66); 
@@ -127,7 +130,7 @@ body {
 
 </nav><hr>
       <div class="imgCont">
-        <h1>Welcome to Animal Care Vienna</h1>
+        <h1>Welcome to Animal Care Vienna!</h1>
       </div>
 
     <div class="parallax_section parallax_image_first"> 

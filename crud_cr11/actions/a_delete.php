@@ -1,9 +1,7 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-	 <title>Animal Care Vienna | A_Delete</title>
+	 <title>Action Delete</title>
 	 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 

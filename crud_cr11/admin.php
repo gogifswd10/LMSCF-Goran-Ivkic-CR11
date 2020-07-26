@@ -28,11 +28,14 @@ if(isset($_SESSION["user"])){
   <style type="text/css">
 
 body {
+    background-image: url("img/blacky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 nav {
@@ -41,11 +44,12 @@ nav {
 
 .parallax_section {
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
 .parallax_image_first {
-    background-image: url("img/pets2.jpg");
+    background-image: url("img/blacky.jpg");
     background-attachment: fixed;
     background-position: center;
 }
@@ -55,8 +59,8 @@ nav {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    height: 160px;
-    background-color: #efe4dc;
+    height: 125px;
+    background-image: url("img/pets.png");
     padding: 0 8px 0 5px;
     margin-bottom: 5px;
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 3px 2px 20px 10px rgba(183,183,183,0.66); 
@@ -103,13 +107,13 @@ nav {
 }
 
 .btn-danger {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
   </style>
 </head>
 
-<body><hr>
+<body><br><br>
   <nav class="navbar navbar-expand-lg navbar-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -138,10 +142,8 @@ nav {
            
 <a class="btn btn-danger border border-dark" href="logout.php?logout"> Log Out</a>
 
-</nav>
-<hr>
+</nav><br><br>
       <div class="imgCont">
-        <h1>Welcome to Animal Care Vienna!</h1>
       </div>
 
     <div class="parallax_section parallax_image_first"> 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 25. Jul 2020 um 18:19
+-- Erstellungszeit: 26. Jul 2020 um 23:44
 -- Server-Version: 10.4.13-MariaDB
 -- PHP-Version: 7.4.7
 
@@ -59,7 +59,7 @@ INSERT INTO `pets` (`id`, `image`, `name`, `age`, `description`, `hobbies`, `siz
 (10, 'img/marder.jpg', 'Bukephalos', 12, 'As your pup grows up into puppy adolescence it is extremely crucial to provide exercise and stimulation on a daily basis. Behavioral problems such as chewing, digging and barking often begin to occur at this age (roughly 6-10 months) and the most effective way to stem these negative behaviors is by providing adequate physical and mental stimulation. If you don’t have time to take your pup to the park or on long walks, consider enrolling in puppy daycare to get that energy released while you are ', 'Swimmingpool, Cocaine, Rock, Formula One, ...', 'medium', 'Los Vegasos 5', 1020, 'Zagreb'),
 (11, 'img/horoz.jpg', 'Ismet Horoz', 11, 'As your pup grows up into puppy adolescence it is extremely crucial to provide exercise and stimulation on a daily basis. Behavioral problems such as chewing, digging and barking often begin to occur at this age (roughly 6-10 months) and the most effective way to stem these negative behaviors is by providing adequate physical and mental stimulation. If you don’t have time to take your pup to the park or on long walks, consider enrolling in puppy daycare to get that energy released while you are ', 'Chicks, Cocaine, Rock, Popcorn, ...', 'medium', 'Reeper Bahn 18', 20354, 'St.Pauli'),
 (12, 'img/ara.jpg', 'Adolf', 9, 'As your pup grows up into puppy adolescence it is extremely crucial to provide exercise and stimulation on a daily basis. Behavioral problems such as chewing, digging and barking often begin to occur at this age (roughly 6-10 months) and the most effective way to stem these negative behaviors is by providing adequate physical and mental stimulation. If you don’t have time to take your pup to the park or on long walks, consider enrolling in puppy daycare to get that energy released while you are ', 'NSDAP, Politics, Boehse Onkelz, ...', 'medium', 'Braune Gasse 88', 5280, 'Braunau'),
-(13, 'img/test.jpg', 'Test', 9, 'As your pup grows up into puppy adolescence it is extremely crucial to provide exercise and stimulation on a daily basis. Behavioral problems such as chewing, digging and barking often begin to occur at this age (roughly 6-10 months) and the most effective way to stem these negative behaviors is by providing adequate physical and mental stimulation. If you don’t have time to take your pup to the park or on long walks, consider enrolling in puppy daycare to get that energy released while you are ', 'Test, Test, Test Test, ...', 'small', 'Test Gasse 8', 5280, 'Test'),
+(13, 'img/test.jpg', 'Test123', 9, 'As your pup grows up into puppy adolescence it is extremely crucial to provide exercise and stimulation on a daily basis. Behavioral problems such as chewing, digging and barking often begin to occur at this age (roughly 6-10 months) and the most effective way to stem these negative behaviors is by providing adequate physical and mental stimulation. If you don’t have time to take your pup to the park or on long walks, consider enrolling in puppy daycare to get that energy released while you are ', 'Test, Test, Test Test, ...', 'small', 'Test Gasse 8', 5280, 'Test'),
 (23, 'img/horoz.jpg', 'Update Test', 9, 'Chicken', 'Fudbal', 'medium', 'Beograd BB', 11000, 'Brcko'),
 (33, 'img/adler.jpg', 'Delete Test', 7, 'oraaaao', 'letenje', 'large', 'Nebo', 14, 'nbmo');
 
@@ -112,7 +112,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT für Tabelle `pets`
 --
 ALTER TABLE `pets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT für Tabelle `users`

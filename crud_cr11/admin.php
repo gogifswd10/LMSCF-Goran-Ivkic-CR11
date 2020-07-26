@@ -27,7 +27,7 @@ if(isset($_SESSION["user"])){
 
   <style type="text/css">
 
-/*body {
+body {
     background-image: url("img/blacky.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -37,12 +37,12 @@ if(isset($_SESSION["user"])){
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
-*/
+
 nav {
     background-color: lightgrey;
 }
 
-/*.parallax_section {
+.parallax_section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -52,7 +52,7 @@ nav {
     background-image: url("img/blacky.jpg");
     background-attachment: fixed;
     background-position: center;
-}*/
+}
 
 .imgCont {
     display: flex;
@@ -110,70 +110,10 @@ nav {
     margin-left: 5px;
 }
 
-body {
-  margin: 0;
-  background: #222;
-  min-width: 960px;
-}
-
-rect {
-  fill: none;
-  pointer-events: all;
-}
-
-circle {
-  fill: none;
-  stroke-width: 2.5px;
-}
-
-h1 {
-  text-align: center;
-  color: red;
-}
-
   </style>
 </head>
 
 <body><br><br>
-  <h1>PLEASE SCROLL DOWN TO SEE THE PETS</h1>
-  <script src="//d3js.org/d3.v3.min.js"></script>
-<script>
-
-var width = Math.max(960, innerWidth),
-    height = Math.max( innerHeight);
-
-var i = 0;
-
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
-
-svg.append("rect")
-    .attr("width", width)
-    .attr("height", height)
-    .on("ontouchstart" in document ? "touchmove" : "mousemove", particle);
-
-function particle() {
-  var m = d3.mouse(this);
-
-  svg.insert("circle", "rect")
-      .attr("cx", m[0])
-      .attr("cy", m[1])
-      .attr("r", 1e-6)
-      .style("stroke", d3.hsl((i = (i + 1) % 360), 1, .5))
-      .style("stroke-opacity", 1)
-    .transition()
-      .duration(2000)
-      .ease(Math.sqrt)
-      .attr("r", 100)
-      .style("stroke-opacity", 1e-6)
-      .remove();
-
-  d3.event.preventDefault();
-}
-
-</script>
-
   <nav class="navbar navbar-expand-lg navbar-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -206,8 +146,8 @@ function particle() {
       <div class="imgCont">
       </div>
 
-<!--     <div class="parallax_section parallax_image_first"> 
- -->      <div class="row">  
+    <div class="parallax_section parallax_image_first"> 
+      <div class="row">  
   
            <?php
            require_once "actions/db_connect.php";
@@ -236,7 +176,7 @@ function particle() {
                   
          
       </div>
-  <!-- </div> --> <!-- Parallax end -->
+  </div> <!-- Parallax end -->
 
     <a href= "create.php"><button id="add" class="btn btn-success" type="button">Add a pet</button></a>
 
